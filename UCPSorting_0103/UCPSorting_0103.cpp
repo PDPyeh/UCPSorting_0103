@@ -36,13 +36,13 @@ void selectionSort() {
         int min_Index = j;
 
         for (int i = j + 1; n - 1;) {
-            if (dipa[j] < dipa[min_Index]) {
-                min_Index = j;
+            if (dipa[i] < dipa[min_Index]) {
+                min_Index = i;
             }
         }
-        if (min_Index = i) {
-            int temp = dipa[i];
-            dipa[i] = dipa[min_Index];
+        if (min_Index = j) {
+            int temp = dipa[j];
+            dipa[j] = dipa[min_Index];
             dipa[min_Index] = temp;
         }
     }
