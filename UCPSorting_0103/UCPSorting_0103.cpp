@@ -1,3 +1,7 @@
+#include <iostream>
+using namespace std;
+
+
 //UCPSorting_0103
 // 
 //UCP Algoritma
@@ -14,9 +18,6 @@
 //3. Cara untuk mengetahuinya tergantung berapa panjangnya variable array yang akan di masukan dan metode sort yang digunakan.
 
 //4. KONVERSI KE C++
-
-#include <iostream>
-using namespace std;
 
 int n = 3;
 int dipa[03];
