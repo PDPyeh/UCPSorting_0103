@@ -30,22 +30,19 @@ void input() {
     }
 }
 
-void selectionSort() {
-    for (int j = 0; j < n - 2; j++) {
-        
-        int i = 0;
-        int min_Index = j;
+void selectionSort()
+{
+    int i, j, min_index;
 
-        for (int i = j + 1; n - 1;) {
-            if (dipa[i] < dipa[min_Index]) {
-                min_Index = i;
-            }
+    for (i = 0; i < n - 1; i++)
+    {
+        min_index = i;
+        for (j = i + 1; j < n; j++)
+        {
+            if (dipa[j] < dipa[min_index])
+                min_index = j;
         }
-        if (min_Index = j) {
-            int temp = dipa[j];
-            dipa[j] = dipa[min_Index];
-            dipa[min_Index] = temp;
-        }
+        swap(dipa[min_index], dipa[i]);
     }
 }
 
