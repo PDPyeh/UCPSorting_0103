@@ -19,7 +19,7 @@
 using namespace std;
 
 int n = 3;
-int dipa[];
+int dipa[03];
 
 void input() {
     cout << "Masukan " << n << " elemen:\n";
